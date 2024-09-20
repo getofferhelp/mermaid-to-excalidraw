@@ -44,7 +44,7 @@ const CustomTest = ({
         />
         <br />
         <button type="submit" id="render-excalidraw-btn">
-          {"Render to Excalidraw"}
+          {"渲染到右侧画板"}
         </button>
       </form>
 

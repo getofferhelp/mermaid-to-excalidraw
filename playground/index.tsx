@@ -55,7 +55,7 @@ const App = () => {
       <div style={{ width: "50%", display: "flex" }}>
         <section id="custom-test">
           <h1>{"Custom Test"}</h1>
-          {"Supports only "}
+          {"仅支持 "}
           <a
             target="_blank"
             href="https://mermaid.js.org/syntax/flowchart.html"
@@ -69,14 +69,14 @@ const App = () => {
           >
             {"Sequence "}
           </a>
-          {"and "}
+          {"和 "}
           <a
             target="_blank"
             href="https://mermaid.js.org/syntax/classDiagram.html"
           >
             {"Class "}
           </a>
-          {"diagrams."}
+          {"图表类型."}
           <br />
           <CustomTest
             activeTestCaseIndex={activeTestCaseIndex}

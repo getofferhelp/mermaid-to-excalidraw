@@ -34,11 +34,11 @@ const Testcases = ({ onChange }: TestcasesProps) => {
         return (
           <Fragment key={baseId}>
             <h2>
-              {name} {"Diagrams"}
+              {name} {"图表"}
             </h2>
             <details>
               <summary>
-                {name} {"Diagram Examples"}
+                {name} {"图表示例"}
               </summary>
               <div id={`${baseId}-container`} className="testcase-container">
                 {testcases.map((testcase, index) => {
